@@ -1,0 +1,211 @@
+
+/* Add or change the styles for all tasks in this css file */
+
+html {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+.geo-path {
+  stroke: #ddd;
+  stroke-width: 0.1px;
+}
+
+.map-color-legend text {
+  font-size: 1.5rem;
+}
+
+.geo-path:hover {
+	fill: #5fc7c5;
+}
+
+.map-background {
+	fill: #385c5f;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 250px;
+  height: 180px;
+  padding: 4px;
+  font: 1rem sans-serif;
+  background: #d3d3d3e6;
+  border: 0px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+#tooltip-barchart .tick line {
+  stroke: none;
+}
+
+#tooltip-barchart text {
+  fill: black;
+  font-size: 0.8rem;
+}
+
+.selected-country {
+  fill: #ffbcc8;
+  stroke: #3e3d3d;
+  stroke-width: 0.8px;
+}
+
+.my-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.my-nav-links a {
+    font-size: 1.3rem;
+    color: #98a4af;
+}
+
+a.active {
+    color: #ffffff;
+}
+
+.my-tab-content {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.line-chart-row {
+    margin-top: 5px;
+}
+
+div .map {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div .virus {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.x-axis text {
+    fill:      #424242;
+    color:     #424242;
+    font-size: 12px;
+}
+.y-axis text {
+    fill:      #424242;
+    color:     #424242;
+    font-size: 12px;
+}
+
+/*For Alan's virus chart*/
+#virus_axis_x
+{
+    fill:      #424242;
+    color:     #424242;
+    font-size: 20px;
+}
+
+#virus_axis_y
+{
+    fill:      #424242;
+    color:     #424242;
+    font-size: 20px;
+}
+
+.virus_axis_label
+{
+    fill:      #424242;
+    color:     #424242;
+    font-size: 20px;
+}
+
+.border-navbar
+{
+    padding-left:  40px;
+    padding-right: 40px;
+    box-shadow:    0 2px 2px 2px rgba(0, 0, 0, 0.10);
+}
+
+.border-collapse
+{
+    padding-top:    0px;
+    padding-bottom: 5px;
+}
+
+.border-stocks
+{
+    border-top:    1px solid #e1e4e8;
+    border-left:   1px solid #e1e4e8;
+    border-right:  1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+
+    padding-top:    10px;
+    padding-bottom: 10px;
+}
+
+.border-stocks-header
+{
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 10px;
+}
+
+.border-map
+{
+    border-top:    1px solid #e1e4e8;
+    border-left:   1px solid #e1e4e8;
+    border-right:  0px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+
+    padding-top:    10px;
+    padding-bottom: 10px;
+}
+
+.border-map-header
+{
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 10px;
+}
+
+.border-virus
+{
+    border-top:    1px solid #e1e4e8;
+    border-left:   1px solid #e1e4e8;
+    border-right:  1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+
+    padding-top:    10px;
+    padding-bottom: 10px;
+}
+
+.border-virus-header
+{
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 10px;
+}
+
+.title_navbar
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.title_charts
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.collapse_text
+{
+    font-size: 16px !important;
+}
+
+.warning_text
+{
+    font-size: 16px !important;
+}
